@@ -64,7 +64,7 @@
     }
 
     // tableに追加
-    const setText = '<tr class ="word"><td class="left">' + leftTextEncoded + '</td><td class="right">' + rightTextEncoded + '</td><td><button class="delete" onclick="deleteTr(this)"><img src="./img/iconmonstr-X-mark-13-240.png" class="trash"></button></td></tr>';
+    const setText = '<tr class ="word"><td class="left">' + leftTextEncoded + '</td><td class="right">' + rightTextEncoded + '</td><td><button class="delete" onclick="deleteTr(this)"><img src="./img/iconmonstr-x-mark-13-240.png" class="trash"></button></td></tr>';
     allWords.insertAdjacentHTML('beforeend', setText);
 
     //テキストエリアを空にする
